@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+
+    <resources>
+
+    <!--Base application theme, dependent on API level. This theme is replacedby AppBaseTheme from res/values-vXX/styles.xml on newer devices. -->
+
+
+
+    -<style parent="android:Theme.Light" name="AppBaseTheme">
+
+    <!--Theme customizations available in newer API levels can go inres/values-vXX/styles.xml, while customizations related tobackward-compatibility can go here. -->
+
+
+</style>
+
+    <!-- Application theme. -->
+
+
+
+    -<style parent="AppBaseTheme" name="AppTheme">
+
+    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+
+</style>
+
+
+    -<style name="mystyle1">
+
+    <item name="android:typeface">serif</item>
+
+    <item name="android:textColor">#2e5894</item>
+
+    <item name="android:textStyle">italic</item>
+
+</style>
+
+
+    -<style name="mystyle2">
+
+    <item name="android:typeface">serif</item>
+
+    <item name="android:textColor">#ff3399</item>
+
+    <item name="android:textStyle">bold</item>
+
+</style>
+
+
+    -<style name="mystyle3">
+
+    <item name="android:typeface">sans</item>
+
+    <item name="android:textColor">#ffeb00</item>
+
+    <item name="android:textStyle">normal</item>
+
+</style>
+
+
+    -<style name="mystyle4">
+
+    <item name="android:typeface">serif</item>
+
+    <item name="android:textColor">#e77200</item>
+
+    <item name="android:textStyle">italic</item>
+
+</style>
+
+
+    -<style name="mystyle5">
+
+    <item name="android:typeface">monospace</item>
+
+    <item name="android:textColor">#afe313</item>
+
+    <item name="android:textStyle">bold</item>
+
+</style>
+
+
+    -<style name="mystyle6">
+
+    <item name="android:typeface">serif</item>
+
+    <item name="android:textColor">#d27d46</item>
+
+    <item name="android:textStyle">italic</item>
+
+</style>
+
+
+    -<style name="mystyle7">
+
+    <item name="android:typeface">sans</item>
+
+    <item name="android:textColor">#f7468a</item>
+
+    <item name="android:textStyle">italic</item>
+
+</style>
+
+
+    -<style name="mystyle8">
+
+    <item name="android:typeface">serif</item>
+
+    <item name="android:textColor">#87421f</item>
+
+    <item name="android:textStyle">bold</item>
+
+</style>
+
+
+    -<style name="mystyle9">
+
+    <item name="android:typeface">serif</item>
+
+    <item name="android:textColor">#a7f432</item>
+
+    <item name="android:textStyle">italic</item>
+
+</style>
+
+
+    -<style name="mystyle10">
+
+    <item name="android:typeface">serif</item>
+
+    <item name="android:textColor">#dea681</item>
+
+    <item name="android:textStyle">bold|bold</item>
+
+</style>
+
+
+    -<style name="mystyle11">
+
+    <item name="android:typeface">sans</item>
+
+    <item name="android:textColor">#d99a6c</item>
+
+    <item name="android:textStyle">italic</item>
+
+</style>
+
+
+    -<style name="mystyle12">
+
+    <item name="android:typeface">sans</item>
+
+    <item name="android:textColor">#fa5b3d</item>
+
+    <item name="android:textStyle">italic</item>
+
+</style>
+
+</resources>

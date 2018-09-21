@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+
+    <RelativeLayout tools:context=".SecondActivity" android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/view1" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/festival" style="@style/mystyle7" android:text="Festival" android:layout_below="@+id/weekend" android:layout_alignLeft="@+id/weekend"/>
+
+    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tour" style="@style/mystyle7" android:text="Tour" android:layout_below="@+id/festival" android:layout_alignLeft="@+id/overtime"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3" android:text="Bonus :" android:layout_alignLeft="@+id/overtime" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="17dp" android:layout_alignBottom="@+id/textView1" android:layout_alignBaseline="@+id/textView1"/>
+
+    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/overtime" style="@style/mystyle7" android:text="Overtime" android:layout_below="@+id/textView3" android:layout_alignParentRight="true"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/update" style="@style/mystyle10" android:text="Update" android:layout_alignBottom="@+id/remove" android:layout_alignBaseline="@+id/remove" android:layout_toRightOf="@+id/remove"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/remove" style="@style/mystyle8" android:text="Remove Employee" android:layout_below="@+id/add" android:layout_alignLeft="@+id/add"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/name" style="@style/mystyle12" android:layout_below="@+id/aadhar_no" android:layout_alignLeft="@+id/experience" android:hint="Enter employee name" android:ems="10"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/experience" style="@style/mystyle12" android:layout_below="@+id/name" android:layout_alignLeft="@+id/aadhar_no" android:layout_alignParentRight="true" android:hint="Enter experience(in yrs.)" android:ems="10"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/aadhar_no" style="@style/mystyle12" android:hint="Enter aadhar no." android:ems="10" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/details" style="@style/mystyle10" android:text="Search employee" android:layout_below="@+id/remove" android:layout_alignLeft="@+id/remove"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView4" android:text="Rank:" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignRight="@+id/details" android:layout_above="@+id/overtime"/>
+
+
+    -<RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/rank" android:layout_above="@+id/tour" android:layout_toLeftOf="@+id/weekend">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/clerk" style="@style/mystyle9" android:text="Clerk"/>
+
+    <RadioButton android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/supervisor" style="@style/mystyle9" android:text="Supervisor"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/manager" style="@style/mystyle9" android:text="Manager"/>
+
+</RadioGroup>
+
+
+    -<RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/section" android:layout_above="@+id/tour" android:layout_alignParentLeft="true">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/sales" style="@style/mystyle9" android:text="Sales" android:textSize="12sp"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/quality" style="@style/mystyle9" android:text="Quality" android:textSize="12sp"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/Import" style="@style/mystyle9" android:text="Import" android:textSize="12sp"/>
+
+</RadioGroup>
+
+    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/weekend" style="@style/mystyle7" android:text="Weekend" android:layout_below="@+id/overtime" android:layout_alignRight="@+id/overtime"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/salary" style="@style/mystyle8" android:text="Salary" android:layout_toRightOf="@+id/remove" android:layout_alignTop="@+id/details"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/clear" style="@style/mystyle8" android:text="Clear" android:layout_toRightOf="@+id/add" android:layout_above="@+id/update"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="Section" android:layout_below="@+id/experience" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignRight="@+id/section"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/add" style="@style/mystyle10" android:text="Add Employee" android:layout_below="@+id/tour" android:layout_alignLeft="@+id/section"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/alldetails" style="@style/mystyle11" android:text="Details" android:layout_alignRight="@+id/weekend" android:layout_above="@+id/update"/>
+
+</RelativeLayout>
